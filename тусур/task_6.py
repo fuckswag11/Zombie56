@@ -1,0 +1,5 @@
+m = int(input('введите число m :'))
+n = int(input('введите число n :'))
+if m > n: print("Number m > n")
+elif m < n: print("Number m < n")
+else: print("The numbers are equa")
