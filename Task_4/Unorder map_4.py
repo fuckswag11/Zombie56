@@ -3,7 +3,6 @@ class KeyValuePair:
         self.key = key 
         self.value = value  
 
-
 class UnorderedMap:
     def __init__(self, size=10):
         self.size = size 
@@ -43,7 +42,6 @@ class UnorderedMap:
         return all_aquakeys
 
     def values(self):
-       
         all_values = []
         for bucket in self.buckets:  
             for pair in bucket: 
@@ -51,7 +49,6 @@ class UnorderedMap:
         return all_values
 
     def items(self):
-        
         all_items = []
         for bucket in self.buckets:  
             for pair in bucket:  
